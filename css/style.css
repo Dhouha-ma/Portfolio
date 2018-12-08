@@ -1,0 +1,319 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+											/****** Index ******/
+.main {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#main-left {
+	height: 100%; 
+	display: flex;
+  	align-items: center;
+  	background-image: url("../img/8.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.intro {
+	margin-left: 10px;
+}
+#intro-me{
+	width: 100%;
+	height: 100%;
+	margin-left: 40px;
+	padding: 0;
+}
+.intro-title {
+	font-size: 30px;
+	line-height: 1;
+	color: #1a1818;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 4px;
+}
+.intro-text {
+	font-size: 20px;
+	color: #1a1818;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	letter-spacing: 0.7px;
+	font-family: 'Quicksand', sans-serif;
+}
+#ft-icon {
+	width: 50px;
+	font-size: 20px;
+	color: black;
+}
+#ft-icon:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#ft-icon:link {
+    text-decoration: none;
+}
+
+#ft-icon:visited {
+    text-decoration: none;
+}
+.footer {
+   position: fixed;
+   right: 20px;
+   bottom: 0;
+   /*width: 100%;*/
+   text-align: right;
+   font-size: 11px;
+   font-style: italic;
+}
+#main-right {
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+#button-corner {
+	text-align: center;
+}
+.btn {
+	background-color: #fff;
+	color: #111;
+	font-style: italic;
+	border-radius: 0px !important;
+	transition: all 0.4s ease-in-out;
+	font-family: "Crimson";
+	font-size: 13px;
+	padding-bottom: 0.714em !important;
+    padding-top: 0.714em !important;	
+}	
+#button-style {
+	width: 100px;
+	height: 40px;
+	border: 1px solid #111;
+	margin: 10px;
+}
+#button-style:hover {
+	color: #fff;
+	background-color: #BA9BA0;
+	border: 1px solid #BA9BA0;
+}
+											/****** End Index ******/
+
+											/****** About *****/
+.pages {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#about_left{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #E8E7E3; 
+	text-align: center;
+}
+#about_right {
+	height: 100%;
+	padding-left: 30px;
+}
+#button-back {
+	width: 130px;
+	height: 40px;
+	border: 1px solid #111;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#button-back:hover {
+	color: #fff;
+	background-color: #BA9BA0;
+	border: 1px solid #BA9BA0;
+}
+#watermark .marker{
+	position: absolute;
+	font-size: 60px;
+	opacity: 0.1;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+	left: 0;
+	top: -5px;
+}
+#watermark{
+	position: relative;
+}
+#watermark .marker{
+	position: absolute;
+	font-size: 60px;
+	opacity: 0.1;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+	left: 0;
+	top: -5px;
+}
+#watermark{
+	position: relative;
+}
+.page-title:after{
+	width: 99%;
+	top: -16px;
+}
+.page-title:before{
+	width: 40%;
+	bottom: -7px;
+}
+.page-title{
+	position: relative;
+	display: inline-block;
+	font-size: 32px;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+}
+.page-title:after,.page-title:before{
+	content: '';
+	position: absolute;
+	height: 1px;
+	background-color: black;
+	left: 0;
+	margin: 2px;
+}
+.subtitle{
+	font-size: 17px;
+	color: #3b3b3b;
+	line-height: 28px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.info{
+	font-family: 'Roboto', sans-serif;
+	line-height: 28px;
+	font-size: 16px;
+	text-align: justify;
+    text-justify: inter-word;
+    width: 95%;
+    line-height: 35px;
+}
+													/****** End About *****/
+
+													/***** Work *****/
+#work_left{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #E8E7E3; 
+	text-align: center;
+}
+#work_right {
+	height: 100%;
+	padding-left: 30px;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1a1818;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+#project-col {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 0;
+}
+#project-col:hover .overlay {
+  height: 100%;
+}
+.overlay:hover a {
+    color: white;
+    text-decoration: none;
+}
+.overlay:visited a {
+    color: pink;
+    text-decoration: none;
+}
+.text-hover {
+  color: white;
+  font-style: italic;
+  font-family: "Crimson";
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+													/***** End Work *****/
+
+													/***** contact *****/
+#contact_left {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #E8E7E3; 
+	text-align: center;
+}
+#contact_right {
+	height: 100%;
+	padding-left: 30px;
+}
+#contact-rows {
+	margin-top: 60px;
+	padding:0;
+}
+#contact-l {
+	padding: 0;
+	margin: 0;
+}
+.form-group {
+	font-style: italic;
+	font-family: "Crimson";
+}
+#button-send {
+	width: 130px;
+	height: 40px;
+	color: #fff;
+	background-color: #225643;
+	border: 1px solid #225643;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+#icon-contact {
+	margin-bottom: 20px;
+}
+#contact-info {
+	margin-left: 10px;
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+}
+												/***** End contact *****/
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
